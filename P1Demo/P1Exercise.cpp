@@ -24,7 +24,7 @@ LRESULT WINAPI WindowProcedure(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam
 		if (wParam == VK_ESCAPE) {
 			PostQuitMessage(0);
 		} else if(wParam == 0x31) {
-			qNo = 1;
+			qNo = 123;
 		} else if(wParam == 0x32) {
 			qNo = 2;
 		} else if(wParam == 0x33) {
