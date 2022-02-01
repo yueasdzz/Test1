@@ -29,7 +29,7 @@ LRESULT WINAPI WindowProcedure(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam
 			qNo = 2;
 		} else if(wParam == 0x33) {
 			qNo = 3;
-		}else if(wParam == 0x33) {
+		}else if(wParam == 0x34) {
 			qNo = 4;
 		}
 		break;
